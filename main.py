@@ -121,12 +121,8 @@ if __name__ == '__main__':
         num_pages = malt_driver.getting_num_pages()
         print('Number of pages : {}'.format(num_pages))
 
-        # Make it start at 1 // Not at 0 (otherwise it's doubling it)
-        #for page_number in range(1,3):
-        #for page_number in range(3,4):
-
-        #for page_number in range(1,num_pages+1):
-        for page_number in range(1,2):
+        for page_number in range(1,num_pages+1):
+        #for page_number in range(1,2): # For testing purposes
             print('Parsing page number {}'.format(page_number))
             url = malt_driver.generate_paged_url_and_go(page_number)
             print('About to parse URL {}'.format(url))
