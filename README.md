@@ -1,10 +1,5 @@
 # Malt - Freelances Stats Analysis
 
-[![N|Solid](https://news.malt.com/wp-content/uploads/2018/03/malt_logo_png.png)](https://www.malt.fr/)
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-[![N|Solid](https://lever-client-logos.s3.amazonaws.com/2f4de33b-7255-4524-bbb0-cf1a6937143b-1556025055439.png)](https://www.malt.fr/)
-
-
 [![Alt text](https://github.com/nicolasbancel/malt_analysis/blob/master/img/logo_malt.png "Logo Page")](https://www.malt.fr/)
 
 This tool parses the Malt website and extracts, for a set of search keywords, all the information related to the freelances that show up in the results pages. There are indeed multiple "inputs" to the tool:
